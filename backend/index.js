@@ -14,7 +14,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["http://posts-blog-theta.vercel.app"],
     methods: ["POST", "GET", "DELETE", "PUT"],
     credentials: true,
   })
